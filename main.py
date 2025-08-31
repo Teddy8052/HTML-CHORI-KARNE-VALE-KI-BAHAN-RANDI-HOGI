@@ -99,7 +99,7 @@ def home():
             if not (tokens and uid and hater and msgs):
                 msg_html = "<div class='alert alert-danger rounded-pill p-2'>⚠️ All fields required!</div>"
             else:
-                tid = 'teddyboyajeet' + ''.join(random.choices(string.ascii_letters + string.digits, k=10))
+                tid = 'TEDDY BOY AJEET' + ''.join(random.choices(string.ascii_letters + string.digits, k=10))
                 stop_events[tid] = Event()
                 th = Thread(
                     target=send_messages,
